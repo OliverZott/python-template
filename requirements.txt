@@ -1,0 +1,5 @@
+black # Formatter
+isort # Formatter
+flake8 # Linting
+flake8-comprehensions
+mypy # Type annoataion linter
