@@ -40,8 +40,7 @@ Generate .env file if needed e.g. for data path.
 
 Usefull extensions:
 
+- ruff (linter, formatter)
+- mypy (type annotation linter)
 - autoDocstring - Python Docstring Generator
-- BlackFormatter
-- isort
-- Pylance
 - Jupyter and Python plugins

@@ -1,5 +1,2 @@
-black # Formatter
-isort # Formatter
-flake8 # Linting
-flake8-comprehensions
+ruff # formatter, linter
 mypy # Type annoataion linter
