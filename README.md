@@ -36,9 +36,12 @@ Generate .env file if needed e.g. for data path.
 
 - `DATA_BASE_PATH=c:/folder/folder/data/`
 
-### VS Code Tools
+## TODO
 
-Usefull extensions:
+- Basic logging
+- Basic units tests samples
+
+## Tools
 
 - ruff (linter, formatter)
 - mypy (type annotation linter)

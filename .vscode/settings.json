@@ -21,6 +21,8 @@
     "isort.importStrategy": "fromEnvironment",
     "autoDocstring.docstringFormat": "numpy",
     "files.exclude": {
-        "**/*.egg-info": true
+        "**/*.egg-info": true,
+        "**/.mypy_cache": true,
+        "**/.ruff_cache": true,
     }
 }
