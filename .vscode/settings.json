@@ -1,21 +1,16 @@
 {
-    "python.analysis.typeCheckingMode": "basic",
-    "python.formatting.provider": "black",
-    "python.formatting.blackArgs": [
-        "--line-length=144",
-    ],
-    "python.linting.flake8Args": [
-        "--exclude=*/venv/*"
-    ],
-    "python.linting.enabled": true,
-    "python.linting.lintOnSave": true,
-    "python.linting.mypyEnabled": false,
+    "notebook.formatOnSave.enabled": true,
+    "notebook.codeActionsOnSave": {
+        "source.fixAll": true,
+        "source.organizeImports": true
+    },
     "[python]": {
         "editor.formatOnSave": true,
-        "editor.defaultFormatter": "ms-python.black-formatter",
         "editor.codeActionsOnSave": {
-            "source.organizeImports": true,
+            "source.fixAll": true,
+            "source.organizeImports": true
         },
+        "editor.defaultFormatter": "charliermarsh.ruff"
     },
     "isort.args": [
         "--profile",
@@ -24,6 +19,8 @@
     ],
     "isort.check": true,
     "isort.importStrategy": "fromEnvironment",
-    "notebook.formatOnSave.enabled": true,
-    "autoDocstring.docstringFormat": "numpy"
+    "autoDocstring.docstringFormat": "numpy",
+    "files.exclude": {
+        "**/*.egg-info": true
+    }
 }
