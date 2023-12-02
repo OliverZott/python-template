@@ -1,7 +1,7 @@
 [tool.mypy]
 ignore_missing_imports = true
 exclude = [
-    "build/",  # build folder
+    "build/",
 ]
 
 [tool.ruff]
@@ -44,7 +44,7 @@ extend-include = ["*.ipynb"]
 # --------------------------------------------------------------------------------------------------
 # Specific ruff linting rules
 [tool.ruff.lint]
-# Enable Pyflakes (`F`) and the pycodestyle (`E`) codes
+# Enable Pyflakes (`F`) and pycodestyle (`E`) codes
 # Unlike Flake8, Ruff doesn't enable pycodestyle warnings (`W`) by default or
 # McCabe complexity (`C901`) by default.
 select = ["F", "I", "UP", "E", "W", "N"]

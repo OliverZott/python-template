@@ -12,13 +12,6 @@
         },
         "editor.defaultFormatter": "charliermarsh.ruff"
     },
-    "isort.args": [
-        "--profile",
-        "black",
-        "--force-single-line-imports"
-    ],
-    "isort.check": true,
-    "isort.importStrategy": "fromEnvironment",
     "autoDocstring.docstringFormat": "numpy",
     "files.exclude": {
         "**/*.egg-info": true,
