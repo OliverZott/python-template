@@ -17,5 +17,6 @@
         "**/*.egg-info": true,
         "**/.mypy_cache": true,
         "**/.ruff_cache": true,
+        "**/build/": true,
     }
 }
