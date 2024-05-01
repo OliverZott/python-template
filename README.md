@@ -45,6 +45,7 @@ Generate .env file if needed e.g. for data path.
 
 - ruff (linter, formatter)
 - mypy (type annotation linter)
+  - if **Extension** installed, add rule: Search for mypy in Settings and ad "Mypy-type-checker args": ``"python.linting.mypyArgs": [     "--ignore-missing-imports" ]``
 - autoDocstring - Python Docstring Generator
 - Jupyter and Python plugins
 
