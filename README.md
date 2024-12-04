@@ -1,15 +1,16 @@
 # Python Project Template
 
-This is just a template/skeleton for a plain python project. Provides basic structure and some useful tools, e.g.
+A simple template/skeleton for a plain python project. It providing basic structure and some useful tools and sample-code like
 
 - linter / formatter / type-checker
-- vs code launch/settings file
+- vs code launch/tasks/settings file
+- package installation example using **setuptools** package
+- pytest example using **pytest** package
+- github example pipeline to run unit tests
 
 TODO:
 
 - logging
-- unit tests
-- pipelines
 - pre-commit hooks and configuration
 
 ## Prerequisites
@@ -21,23 +22,22 @@ Generate virtual environment and install packages.
 ```bash
 # Create/activate/deactivate venv
 python -m venv venv
-.\venv\Scripts\activate
-source venv/bin/activate
-.\venv\Scripts\deactivate
+.\venv\Scripts\activate  # windows
+source venv/bin/activate  # linux
 
 # Install packages with activated env and check
 python -m pip install --upgrade pip
 pip install --upgrade -r ./requirements.txt 
 pip list
 
-# Freeze and Upgrade current packages  
+# Freeze / Upgrade current packages  
 pip freeze > pip_list.txt   
 pip install --upgrade --force-reinstall -r requirements.txt
 ```
 
 ### VS Code Extensions
 
-In VS Code extensions view use `@recommended` to see all extensions defined in .extensions.json
+In VS Code extensions view use `@recommended` to install extensions defined in .extensions.json
 
 ### .env file
 
@@ -63,7 +63,7 @@ Further:
 
 Tools can be applied manualle in console or automatically in pipeline on commit/PR. Configuration for manual/local usage is done in **settings.json**. Configuration for pipeline/build-tool usage is done via **pyproject.toml**.
 
-Use Ruff instead of flake8 (linter), black (formatter) and isort (import sorter) separately.
+Ruff instead of flake8 (linter), black (formatter) and isort (import sorter) separately.
 
 - in root foler: `python .\run_ruff.py`
 

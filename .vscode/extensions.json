@@ -8,5 +8,6 @@
         "tamasfe.even-better-toml",
         "charliermarsh.ruff",
         "DavidAnson.vscode-markdownlint",
+        "GitHub.vscode-github-actions",
     ]
 }

@@ -19,7 +19,7 @@
             "request": "launch",
             "program": "${workspaceFolder}/venv/Scripts/pytest.exe",
             "args": [
-                "${workspaceFolder}/test"
+                "${workspaceFolder}/tests"
             ],
             "console": "integratedTerminal",
             "justMyCode": false
