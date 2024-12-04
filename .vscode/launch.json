@@ -14,6 +14,17 @@
             "justMyCode": true
         },
         {
+            "name": "Pytest",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/venv/Scripts/pytest.exe",
+            "args": [
+                "${workspaceFolder}/test"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },
+        {
             "name": "Python: Command Line Args Example",
             "type": "debugpy",
             "request": "launch",

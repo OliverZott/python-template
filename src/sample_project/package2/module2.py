@@ -1,9 +1,9 @@
 from sample_project.package1.module1 import func1
 
 
-def func2():
-    print("Inside module2-func2, calling func1 from module1: ")
-    func1()
+def func2() -> int:
+    print("Inside module2-func2, calling func1(10) from module1: ")
+    return func1(10)
 
 
 # to run:

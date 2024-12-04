@@ -18,5 +18,10 @@
         "**/.mypy_cache": true,
         "**/.ruff_cache": true,
         "**/build/": true,
-    }
+    },
+    "python.testing.pytestArgs": [
+        "test"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
 }
