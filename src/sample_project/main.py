@@ -17,3 +17,5 @@ if __name__ == "__main__":
     print("sample_project calles as main")
     func1()
     func2()
+    call_func1()
+    call_func2()

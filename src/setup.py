@@ -3,14 +3,15 @@ from setuptools import setup
 
 setup(
     name="sample_project",
-    version="0.5",
+    version="0.8",
     description="Testing installation of Package",
     url="#",
     author="auth",
     author_email="author@email.com",
     license="MIT",
     # packages=["sample_project"],
-    packages=find_packages(),
+    packages=find_packages(where="."),
+    package_dir={"": "."},
     # install_requires=[
     #     "package1",
     #     "package2",

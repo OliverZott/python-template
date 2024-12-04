@@ -2,11 +2,7 @@
 
 <https://www.tutorialsteacher.com/python/python-package>
 
-## locally
+To run `program.py`
 
-see *sample_project* import examples and comments in code
-
-## as installed package
-
-- in src folder (after each change in sample_project):
-  - `pip install --upgrade .`
+- `pip install --upgrade .` in **src** folder (after each change in sample_project):
+- `python .\programm.py` in **src** folder
