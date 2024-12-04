@@ -2,10 +2,15 @@
 
 This is just a template/skeleton for a plain python project. Provides basic structure and some useful tools, e.g.
 
-- linter / formatter / type-checker with respective pre-commit hooks and configuration
+- linter / formatter / type-checker
+- vs code launch/settings file
+
+TODO:
+
 - logging
 - unit tests
-- vs code launch/settings file
+- pipelines
+- pre-commit hooks and configuration
 
 ## Prerequisites
 
@@ -30,16 +35,15 @@ pip freeze > pip_list.txt
 pip install --upgrade --force-reinstall -r requirements.txt
 ```
 
+### VS Code Extensions
+
+In VS Code extensions view use `@recommended` to see all extensions defined in .extensions.json
+
 ### .env file
 
 Generate .env file if needed e.g. for data path.
 
 - `DATA_BASE_PATH=c:/folder/folder/data/`
-
-## TODO
-
-- Basic logging
-- Basic units tests samples
 
 ## Tools
 
@@ -55,7 +59,7 @@ Further:
 - coverage
 - pre-commit
 
-## ruff and mypy
+### ruff and mypy
 
 Tools can be applied manualle in console or automatically in pipeline on commit/PR. Configuration for manual/local usage is done in **settings.json**. Configuration for pipeline/build-tool usage is done via **pyproject.toml**.
 

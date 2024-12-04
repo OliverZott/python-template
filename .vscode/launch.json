@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "Python: Current File",
-            "type": "python",
+            "type": "debugpy",
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "program": "${file}",
@@ -15,7 +15,7 @@
         },
         {
             "name": "Python: Command Line Args Example",
-            "type": "python",
+            "type": "debugpy",
             "request": "launch",
             "cwd": "${workspaceFolder}/udemy_python_advanced/Chapter04_Functions",
             "program": "command_line_args.py",
