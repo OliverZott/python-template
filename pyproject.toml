@@ -70,5 +70,5 @@ line-ending = "auto"
 
 # --------------------------------------------------------------------------------------------------
 # Specific ruff isort rules
-[tool.ruff.isort]
+[tool.ruff.lint.isort]
 force-single-line = true
