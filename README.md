@@ -1,6 +1,6 @@
 # Python Project Template
 
-A simple template/skeleton for a plain python project. It providing basic structure and some useful tools and sample-code like
+A simple template/skeleton for a plain python project. It provides basic structure and some useful tools and sample-code like
 
 - linter / formatter / type-checker
 - vs code launch/tasks/settings file
