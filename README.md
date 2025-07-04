@@ -45,6 +45,29 @@ Generate .env file if needed e.g. for data path.
 
 - `DATA_BASE_PATH=c:/folder/folder/data/`
 
+## Run `program.py`
+
+- `pip install --upgrade .` ...in **src** folder (after each change in sample_project) to install sample_project package.
+- `python .\program.py` ...in **src** folder
+
+## Run unit tests
+
+### VS Code
+
+- Via Integrated test view in pirmary side bar if python extension is installed
+- Via `Pytest` launch configuration in debug view
+
+### Terminal
+
+- `pytest` or `pytest -pdb` (for debugging) in root dir
+
+## Run specific Tasks
+
+e.g.
+
+- Debug:  `Python: Current File` in Debug View
+- Run: `ctrl + shift + p` select `Tasks: Run Task` and use `Python: Current File`
+
 ## Tools
 
 - ruff (linter, formatter)
